@@ -12,9 +12,9 @@ function setCurriculum() {
             <hr>
             <h2>Experiences</h2>
 
-                <h4>Remote Full Stack Developer</h4>
+                <h4>Remote Full Stack .Net Developer</h4>
                     
-                <p>At EFESO Consulting</p>
+                <p>At Electra DV</p>
                 
                 <p>Remote Work</p>
                 
@@ -53,7 +53,7 @@ function setCurriculum() {
             <hr>
             <h2>Knowledges</h2>
             <p>
-                C#, ASP.NET MVC, ASP Classic, Node, API Rest, HTML, CSS, Bootstrap, JavaScript, React, React Native, JQuery, T-SQL and SQL Server.
+                C#, ASP.NET Core, ASP Classic, API Rest, HTML, CSS, Bootstrap, JavaScript, React, JQuery, T-SQL and SQL Server.
             </p>
         </div>
     `;
