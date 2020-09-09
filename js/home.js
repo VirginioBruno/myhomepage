@@ -1,4 +1,4 @@
-var container = document.querySelector('.container');
+var container = document.querySelector('main');
 container.innerHTML = setAboutMe();
 
 var aboutMeMenu = document.querySelector('#aboutMe');
