@@ -136,9 +136,10 @@ footer p {
 
     main .container {
         width: auto;
-        height: auto;
+        max-height: 300px;
         position: static;
-        margin: 20px 20px;
+        display: block;
+        margin: 0 20px;
     }
 
     footer p {
