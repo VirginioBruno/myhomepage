@@ -7,7 +7,7 @@ function setCurriculum() {
         <article>
             <h2>Main Goal</h2>
             <p>
-                For sure my main goal is keep learning and challenging me. I am always searching for those two things because I believe that this things will keeping me motivated and always wanting to evolution.
+                For sure my main goal is keep learning and challenging me. I am always looking for those two things because I believe that these things will keeping me motivated and always wanting to evolve.
             </p>
             <hr>
             <h2>Experiences</h2>
@@ -19,6 +19,8 @@ function setCurriculum() {
                 <p>Remote Work</p>
                 
                 <p>July 2019 until Current</p>
+
+                <p>I work in the development and implementation of new features of the system, participating in the migration of the legacy code to a new architecture using .Net Core and creating patterns to be used. In the implementation step are used .Net Core, ASP Classic, JavaScript, JQuery, T-SQL, HTML, CSS and Bootstrap.</p>
                 
                 <h3>.Net Developer</h3>
                 
@@ -28,7 +30,7 @@ function setCurriculum() {
                 
                 <p>February 2018 until July 2019</p>
                 
-                <p>I worked in the development and implementation of the ERP and REST API system, performing the requirements gathering, coding and implementation of new features providing assistance to the end user. In the implementation step is used ASP.NET MVC, ASP Classic, JavaScript, JQuery, T-SQL, HTML, CSS3 and Bootstrap.</p>
+                <p>I worked in the development and implementation of the ERP and REST API system, performing the requirements gathering, coding and implementation of new features providing assistance to the end user. In the implementation step are used ASP.NET MVC, ASP Classic, JavaScript, JQuery, T-SQL, HTML, CSS3 and Bootstrap.</p>
 
                 <h3>IT Trainee</h3>
 
