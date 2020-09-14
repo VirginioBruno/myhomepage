@@ -136,7 +136,7 @@ footer p {
 
     main .container {
         width: auto;
-        max-height: 200px;
+        max-height: 300px;
         position: static;
         display: block;
         margin: 0 20px;
