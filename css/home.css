@@ -1,30 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-html, body {
-    margin: 0;
-    padding: 0;
-    outline: 0;
+html {
+    height: 100%;
 }
 
 body {
     background: #000 url("../images/background.jpg") no-repeat;
     background-size: cover;
-    height: 100%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
     word-spacing: 1px;
     line-height: 30px;
     letter-spacing: 1px;
-}
-
-a {
-    color: #000;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-a:hover {
-  color: #ddd;
 }
 
 .my-picture {
@@ -32,20 +18,31 @@ a:hover {
     background-position: -15px -15px;
     height: 195px;
     width: 195px;
-    margin-top: 60px;
-    margin-left: 20px;
+    margin: 60px 0 0 20px;
 }
 
-main {
+main .container {
     background-color: #fff;
     width: 750px;
-    max-height: 450px;
+    max-height: 350px;
     overflow: auto;
     border-radius: 5px;
     position: absolute;
     right: 15%;
     top: 60px;
-    padding: 0 30px 0 30px;
+    padding: 20px 50px 20px 50px;
+}
+
+.container h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 1em;
+}
+
+.container h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 1em 0;
 }
 
 nav {
@@ -56,17 +53,24 @@ nav {
     position: absolute;
     left: 20px;
     bottom: 30%;
+    padding: 10px 20px 10px 20px;
 }
 
 .menu-list {
     list-style: none;
+    margin: 20px 0;
 }
 
-.menu-list span:hover {
-    color: #ddd;
+.menu-list a:hover {
+    color: #cccccc;
+    text-decoration: underline;
 }
 
-.menu-list li span {
+.menu-list i {
+    margin: 0 10px 0 0;
+}
+
+.menu-list li a {
     text-decoration: none;
     color: #000;
     cursor: pointer;
@@ -79,14 +83,65 @@ footer {
     position: fixed;
     bottom: 0;
     color: #fff;
-    line-height: 80px;
+}
+
+footer p {
+    position: relative;
+    top: 32%;
 }
 
 .copyright {
-    margin-left: 80px;
+    margin-left: 10%;
 }
 
-.git-span {
-  text-align: center;
-  margin-bottom: 20px;
+@media screen and (max-width: 480px) {
+    .my-picture {
+        height: 50px;
+        width: 50px;
+        margin: 20px 20px;
+    }
+
+    nav {
+        position: static;
+        display: inline-block;
+        background:none;
+        height: auto;
+        width: auto;
+        padding: 0;
+        vertical-align: top;
+    }
+
+    .menu-list li {
+        display: inline;
+        font-size: 14px;
+        padding: 0;
+        margin: 0 0 0 4px;
+    }
+
+    .menu-list li:before {
+        content: '•';
+        margin: 0 2px 0 0;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .menu-list li a {
+        color: #ffffff;
+    }
+
+    .menu-list li i {
+        display: none;
+    }
+
+    main .container {
+        width: auto;
+        height: auto;
+        position: static;
+        margin: 20px 20px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
 }

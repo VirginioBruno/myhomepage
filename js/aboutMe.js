@@ -4,7 +4,7 @@ function setAboutMe() {
     container.innerHTML = '';
     fadeIn(container);
     return `
-        <div>
+        <article>
             <h3>
                 Hello! My name is Bruno and welcome to my page!
             </h3>
@@ -17,7 +17,7 @@ function setAboutMe() {
             <p>
                 So, now that you know me better, stay free to see my skills and profile.
             </p>
-        </div>
+        </article>
     `;
 }
 

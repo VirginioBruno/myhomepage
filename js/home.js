@@ -1,14 +1,12 @@
-var container = document.querySelector('main');
+var container = document.querySelector('.container');
 container.innerHTML = setAboutMe();
 
-var aboutMeMenu = document.querySelector('#aboutMe');
-var curriculumMenu = document.querySelector('#curriculum');
-var portfolioMenu = document.querySelector('#portfolio');
+var aboutMeMenu = document.querySelector('.about-me');
+var curriculumMenu = document.querySelector('.curriculum');
+var portfolioMenu = document.querySelector('.portfolio');
 
 aboutMeMenu.onclick = () => container.innerHTML = setAboutMe();
-
 curriculumMenu.onclick = () => container.innerHTML = setCurriculum();
-
 portfolioMenu.onclick = () => {
     container.innerHTML = setPortfolio();
 
