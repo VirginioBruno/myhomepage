@@ -98,7 +98,7 @@ footer p {
     .my-picture {
         height: 50px;
         width: 50px;
-        margin: 20px 20px;
+        margin: 10px 5px 10px 10px;
     }
 
     nav {
@@ -109,6 +109,7 @@ footer p {
         width: auto;
         padding: 0;
         vertical-align: top;
+        margin: 0 5px 0 0;
     }
 
     .menu-list li {
@@ -136,7 +137,7 @@ footer p {
 
     main .container {
         width: auto;
-        max-height: 300px;
+        height: auto;
         position: static;
         display: block;
         margin: 0 20px;
