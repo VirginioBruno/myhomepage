@@ -15,7 +15,7 @@ function setAboutMe() {
                 Since I was a little kid I wanted to do something related with technology, so I started making corrections on my computer like many others, after some years looking for a job a found the development world. At the beginning I suffered like many others, but as I learned about it I fell in love.
             </p>
             <p>
-                So, now that you know me better, feel free to see my curriculum and portfolio.
+                So, now that you know me better, feel free to see my curriculum and <a href="https://github.com/VirginioBruno/">Github</a>.
             </p>
         </article>
     `;

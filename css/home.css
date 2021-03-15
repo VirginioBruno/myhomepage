@@ -13,6 +13,10 @@ body {
     letter-spacing: 1px;
 }
 
+main {
+    display: flex;
+}
+
 .my-picture {
     border-radius: 50%;
     background-position: -15px -15px;
@@ -21,15 +25,13 @@ body {
     margin: 60px 0 0 20px;
 }
 
-main .container {
+.container {
     background-color: #fff;
     width: 750px;
     max-height: 350px;
     overflow: auto;
-    border-radius: 5px;
-    position: absolute;
-    right: 15%;
-    top: 60px;
+    border-radius: 5px; 
+    margin: 60px 0 0 120px;
     padding: 20px 50px 20px 50px;
 }
 
@@ -45,15 +47,16 @@ main .container {
     margin: 1em 0;
 }
 
+.experiences p::before{
+    content: '• ';
+}
+
 nav {
     background-color: #fff;
     width: 200px;
-    height: 130px;
     border-radius: 15px;
-    position: absolute;
-    left: 20px;
-    bottom: 30%;
     padding: 10px 20px 10px 20px;
+    margin: 60px 0 0 20px;
 }
 
 .menu-list {
@@ -102,21 +105,21 @@ footer p {
     }
 
     nav {
-        position: static;
+        position: absolute;
         display: inline-block;
         background:none;
         height: auto;
         width: auto;
         padding: 0;
         vertical-align: top;
-        margin: 0 5px 0 0;
+        margin: 0 5px 0 15px;
     }
 
     .menu-list li {
         display: inline;
         font-size: 14px;
         padding: 0;
-        margin: 0 0 0 4px;
+        margin: 0 0 0 20px;
     }
 
     .menu-list li:before {
@@ -135,12 +138,12 @@ footer p {
         display: none;
     }
 
-    main .container {
+    .container {
         width: auto;
-        max-height: 250px;
-        position: static;
-        display: block;
+        max-height: 350px;
+        position: absolute;
         margin: 0 20px;
+        top: 15%;
     }
 
     footer p {

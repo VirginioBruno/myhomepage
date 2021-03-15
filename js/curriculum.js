@@ -10,15 +10,23 @@ function setCurriculum() {
                 For sure my main goal is keep learning and challenging me. I am always looking for those two things because I believe that these things will keeping me motivated and always wanting to evolve.
             </p>
             <hr>
-            <h2>Experiences</h2>
+            <div class="experiences">
+                <h2>Experiences</h2>
+                <h3>.Net Developer</h3>
+                        
+                <p>At Meta (Dell Team)</p>
+                
+                <p>Remote Work</p>
+                
+                <p>October 2020 until Current</p>
 
-                <h3>Remote .Net Developer</h3>
+                <h3>.Net Developer</h3>
                     
                 <p>At Electra DV</p>
                 
                 <p>Remote Work</p>
                 
-                <p>July 2019 until Current</p>
+                <p>July 2019 until October 2020</p>
 
                 <p>I work in the development and implementation of new features of the system, participating in the migration of the legacy code to a new architecture using .Net Core and creating patterns to be used. In the implementation step are used .Net Core, ASP Classic, JavaScript, JQuery, T-SQL, HTML, CSS and Bootstrap.</p>
                 
@@ -51,7 +59,7 @@ function setCurriculum() {
                 <p>April 2016 until December 2016</p>
 
                 <p>Assisted with technical support throughout the campus, solving problems, making corrections and providing support to students, faculty, staff and directors of the institution.</p>
-
+            </div>
             <hr>
             <h2>Knowledges</h2>
             <p>
